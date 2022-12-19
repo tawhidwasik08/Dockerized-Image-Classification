@@ -13,7 +13,7 @@ WORKDIR /app
 COPY environment.yml .
 RUN conda env create -f environment.yml
 SHELL ["conda", "run", "-n", "selise_venv", "/bin/bash", "-c"]
-COPY Scripts/prob_3.py .
+COPY prob_3.py .
 ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "selise_venv", "python3", "prob_3.py"]
 
 
