@@ -1,9 +1,9 @@
 version: '4.15.0'
 services:
-  prob_2_notebook_image:
+  notebook_image:
     build:
       context: .
-      target: prob_2_notebook_image
+      target: notebook_image
     ports: 
     - "127.0.0.1:8888:8888"
     deploy:
@@ -17,8 +17,3 @@ services:
     - type: bind
       source: ./docker_mount
       target: /tmp
-
-  prob_3_image:
-    build:
-      context: .
-      target: prob_3_image
