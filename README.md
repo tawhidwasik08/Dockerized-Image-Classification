@@ -16,7 +16,7 @@ The repository contains gpu supported dockerized code for training, inferencing 
    ```
 3. Move into project directory in command line
     ```bash 
-    cd image_classification_dockerized/
+    cd Dockerized-Image-Classification/
     ```
 4. Run
   ```bash
@@ -24,7 +24,7 @@ The repository contains gpu supported dockerized code for training, inferencing 
   ```
 5. Move dataset into **docker_mount** folder. It directory should look like this :
   ```bash
-  image_classification_dockerized/docker_mount/dataset/train/berry/
+  Dockerized-Image-Classification/docker_mount/dataset/train/berry/
   ```
 6. Jupyter should be running in [localhost:8888](http://localhost:8888). Make sure **port 8888** is not occupied.
 
