@@ -12,7 +12,7 @@ The repository contains gpu supported dockerized code for training, inferencing 
 1. Install docker on your system.
 2. Clone the repository:
    ```bash
-   git clone https://github.com/tawhidwasik08/image_classification_dockerized.git
+   git clone https://github.com/tawhidwasik08/Dockerized-Image-Classification.git
    ```
 3. Move into project directory in command line
     ```bash 
