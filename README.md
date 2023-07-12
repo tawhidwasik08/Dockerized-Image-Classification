@@ -1,7 +1,7 @@
 
 
 # Dockerized Image Classification
-The repository contains gpu supported dockerized code for training and evaluating an image classification model using ensembling techniques. It uses pre-trained VGG16 and ResNet152 models for classification and combines their predictions using an ensemble model. The dataset used is a collection of images divided into four classes: berry, bird, dog, and flower. The code includes data preprocessing, model creation, training, inference for single images, evaluation metrics such as accuracy and loss, and visualization of training results. 
+The repository contains gpu supported dockerized code for training, inferencing and evaluating an image classification model using ensembling techniques. It uses pre-trained VGG16 and ResNet152 models for classification and combines their predictions using an ensemble model. The dataset used is a collection of images divided into four classes: berry, bird, dog, and flower. The code includes data preprocessing, model creation, training, inference for single images, evaluation metrics such as accuracy and loss, and visualization of training results. 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
