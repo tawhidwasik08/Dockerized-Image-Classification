@@ -45,5 +45,5 @@ The repository contains gpu supported dockerized code for training, inferencing 
 3. The actual class  and predicted class  for the image are displayed.
 
 
-**Hope it helps to anyone looking for simple dockerized machine/deep learning notebooks with gpu support.**  
+**Hope it helps anyone looking for simple dockerized machine/deep learning notebooks with gpu support.**  
 *Peace!* :v:
