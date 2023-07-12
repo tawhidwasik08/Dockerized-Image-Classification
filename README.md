@@ -1,4 +1,5 @@
 
+
 # Dockerized Image Classification Pipeline
 The repository contains gpu supported dockerized code for training and evaluating an image classification model using ensembling techniques. It uses pre-trained VGG16 and ResNet152 models for classification and combines their predictions using an ensemble model. The dataset used is a collection of images divided into four classes: berry, bird, dog, and flower. The code includes data preprocessing, model creation, training, inference for single images, evaluation metrics such as accuracy and loss, and visualization of training results. 
 ## Table of Contents
@@ -11,14 +12,20 @@ The repository contains gpu supported dockerized code for training and evaluatin
 1. Install docker on your system.
 2. Clone the repository:
    ```bash
-   git clone https://github.com/tawhidwasik08/image_classification_dockerized.git```
+   git clone https://github.com/tawhidwasik08/image_classification_dockerized.git
+   ```
 3. Move into project directory in command line
-  ```bash 
-  cd image_classification_dockerized/```
+    ```bash 
+    cd image_classification_dockerized/
+    ```
 4. Run
-   ```bash 
-  docker compose up```
-5. Move dataset into docker_mount folder. It should look like this :            ```image_classification_dockerized/docker_mount/dataset/train/berry/```
+  ```bash
+  docker compose up
+  ```
+5. Move dataset into **docker_mount** folder. It directory should look like this :
+  ```bash
+  image_classification_dockerized/docker_mount/dataset/train/berry/
+  ```
 6. Jupyter should be running in [localhost:8888](http://localhost:8888). Make sure **port 8888** is not occupied.
 
 
